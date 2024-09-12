@@ -1,0 +1,91 @@
+footer {
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start; 
+}
+
+.footer-logo {
+    margin-right: 40px; 
+}
+
+.footer-logo img {
+    width: 100px; 
+}
+
+.footer-info-hours {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+}
+
+.footer-info {
+    margin-right: 30px; 
+}
+
+.footer-info p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-hours p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-social p,
+.footer-newsletter p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-stay-connected form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-stay-connected input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.footer-stay-connected button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer-stay-connected button:hover {
+    background-color: darkred;
+}
