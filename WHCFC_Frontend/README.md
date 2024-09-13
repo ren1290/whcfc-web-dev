@@ -1,4 +1,4 @@
-**Tools Required:**
+**Instructions:**
 
 To run this Angular project, you need the following tools installed on your local machine:
 
@@ -11,10 +11,13 @@ To run this Angular project, you need the following tools installed on your loca
 
 **Steps to run the code in your local:**
 
-1. Open your project (code) in the VS Code, and navigate to /WHCFC_Frontend/
+1. Open your project (code) in the VS Code, in your terminal navigate to ```/WHCFC_Frontend```
 
 2. Install the dependencies using the command:
 ```npm install```
 
-3. Start the Angular development server by the command
+3. Start the Angular development server by the command:
 ```ng serve```
+
+4. View the website at the url:
+```http://localhost:4200/```
