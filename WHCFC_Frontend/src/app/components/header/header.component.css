@@ -7,6 +7,7 @@ header {
   
     .logo {
       display: inline-block;
+      margin-left: 20px;
     }
   
     .logo a {
@@ -78,6 +79,7 @@ header {
     }
   
     .donate-button {
+      margin-right: 20px;
       button {
         background-color: transparent;
         border: 2px solid #fe8282;

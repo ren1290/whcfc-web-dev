@@ -1,5 +1,5 @@
 footer {
-    background-color: #333; 
+    background-color: #333333; 
     color: white;
     padding: 20px;
     display: flex;
@@ -17,8 +17,13 @@ footer {
 }
 
 .footer-logo {
-    margin-right: 40px; 
+    margin-right: 10px; 
 }
+
+.footer-logo a {
+    display: inline-block;
+    cursor: pointer;
+  }
 
 .footer-logo img {
     width: 100px; 
@@ -46,7 +51,12 @@ footer {
     font-size: 16px;
 }
 
-.footer-social p,
+.footer-social p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
 .footer-newsletter p {
     font-weight: bold;
     margin-bottom: 10px;
@@ -54,6 +64,7 @@ footer {
 
 .social-icons a {
     margin-right: 10px;
+    margin-top: 7px;
     display: inline-block;
 }
 
@@ -62,9 +73,20 @@ footer {
     height: 40px;
 }
 
-.footer-stay-connected form {
+.footer-stay-connected {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-stay-connected p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-stay-connected form {
+    margin-top: 7px;
 }
 
 .footer-stay-connected input[type="email"] {
