@@ -6,15 +6,15 @@ Welcome to the repository of the **White Haven Community Football Club** website
 
 The repository is structured as follows:
 
-- WHCFC/Frontend/: Contains the Angular-based frontend code.
+- /WHCFC_Frontend: Contains the Angular-based frontend code.
 
-- WHCFC/Backend/: Contains the Node.js and MySQL-based backend code.
+- /WHCFC_Backend: Contains the Node.js and MySQL-based backend code.
 
 - README.md: The common README file with general instructions.
 
-- WHCFC/Frontend/README.md: Specific instructions for setting up the frontend.
+- /WHCFC_Frontend/README.md: Specific instructions for setting up the frontend.
 
-- WHCFC/Backend/README.md: Specific instructions for setting up the backend.
+- /WHCFC_Frontend/README.md: Specific instructions for setting up the backend.
 
 **Branching Strategy:**
 
@@ -22,10 +22,7 @@ The repository is structured as follows:
 
 - **develop:** This is the active development branch where all new features, bug fixes, and changes are regularly updated.
 
-
-
 **General Git Commands:**
-
 
 **Cloning the Repository:**
 
@@ -53,7 +50,9 @@ Whenever you work on a new feature or a bug fix, always create a new feature bra
 
 Before starting your work each day, it's important to get the latest updates from the develop branch. Use the following command:
 
-- Fetch Latest Code from the develop Branch: **git pull origin develop**
+- Fetch the latest changes: **git fetch**
+
+- Pull the latest code from the develop Branch: **git pull origin develop**
 
 **Committing and Pushing Changes:**
 
@@ -61,7 +60,9 @@ Once you’ve made changes to the code, follow these steps to commit and push yo
 
 - Switch to Your Feature Branch: **git checkout feature/your-feature-name**
 
-- Pull the Latest Changes from develop into Your Feature Branch: **git pull origin develop**
+- Fetch the latest changes: **git fetch**
+
+- Pull the latest changes from develop into Your Feature Branch: **git pull origin develop**
 
 - Add your changes to the staging area: **git add .**
 
@@ -72,18 +73,11 @@ Once you’ve made changes to the code, follow these steps to commit and push yo
 - Create a Pull Request to Merge Your Feature Branch into develop:
 
   1. Click on the "Pull Requests" tab.
-  3. Click on "New Pull Request."
+  3. Click on "New Pull Request".
   4. Select your feature branch (feature/your-feature-name) as the source branch.
   5. Select develop as the target branch.
   6. Review and Submit.
-  
   7. Add a title and description for your pull request.
   8. Review the changes to ensure everything is correct.
-  9. Click "Create Pull Request."
-  10. Wait for Review and Merge
-
-
-
-
-
-
+  9. Click "Create Pull Request".
+  10. Wait for Review and Merge.
