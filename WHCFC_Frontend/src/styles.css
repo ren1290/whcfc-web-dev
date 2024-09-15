@@ -1,6 +1,7 @@
 html, body {
     height: 100%; /* Ensure the body takes full height */
     margin: 0;
+    flex-direction: column;
   }
   
   .page-container {
