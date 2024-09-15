@@ -1,0 +1,95 @@
+.volunteer-discover-volunteering-opps {
+    /*top: 994px;
+    left: 188px;*/
+    width: 1065px;
+    height: 133px;
+    display: flex;
+    margin: 0 auto;
+    /*position: absolute;*/
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-top: 2520px;
+  }
+
+  .volunteer-text1 {
+    top: 1000px;
+    color: rgba(0, 0, 0, 1);
+    width: 1065px;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+    font-weight: 700;
+  }
+
+  .volunteer-text2 {
+    top: 1100px;
+    left: 450px;
+    color: rgba(0, 0, 0, 1);
+    width: 700px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .volunteer-connect1 {
+    top: 1207px;
+    left: 300px;
+    width: 1065px;
+    height: 295px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .volunteer-connect2 {
+    top: 20px;
+    left: 630px;
+    width: 435px;
+    height: 275px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+
+  .volunteer-text3 {
+    color: rgba(67, 102, 230, 1);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: normal;
+    font-weight: 700;
+  }
+  
+  .volunteer-text4 {
+    top: 38px;
+    color: rgba(0, 0, 0, 1);
+    width: 435px;
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: normal;
+    font-weight: 700;
+  }
+  
+  .volunteer-text5 {
+    top: 147px;
+    color: rgba(0, 0, 0, 1);
+    width: 435px;
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: normal;
+  }
+
+  .volunteer-Shaun {
+    top: 0px;
+    left: 0px;
+    width: 525px;
+    height: 295px;
+    position: absolute;
+    border-radius: 30px;
+  }
