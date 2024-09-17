@@ -14,7 +14,7 @@ The repository is structured as follows:
 
 - /WHCFC_Frontend/README.md: Specific instructions for setting up the frontend.
 
-- /WHCFC_Frontend/README.md: Specific instructions for setting up the backend.
+- /WHCFC_Backend/README.md: Specific instructions for setting up the backend.
 
 **Branching Strategy:**
 
@@ -50,8 +50,6 @@ Whenever you work on a new feature or a bug fix, always create a new feature bra
 
 Before starting your work each day, it's important to get the latest updates from the develop branch. Use the following command:
 
-- Fetch the latest changes: **git fetch**
-
 - Pull the latest code from the develop Branch: **git pull origin develop**
 
 **Committing and Pushing Changes:**
@@ -59,8 +57,6 @@ Before starting your work each day, it's important to get the latest updates fro
 Once you’ve made changes to the code, follow these steps to commit and push your changes to the remote repository.
 
 - Switch to Your Feature Branch: **git checkout feature/your-feature-name**
-
-- Fetch the latest changes: **git fetch**
 
 - Pull the latest changes from develop into Your Feature Branch: **git pull origin develop**
 
