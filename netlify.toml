@@ -1,6 +1,6 @@
 [build]
   command = "npm run build --prefix WHCFC_Frontend"
-  publish = "WHCFC_Frontend/dist/whcfc-frontend"
+  publish = "WHCFC_Frontend/dist/whcfc-frontend/browser"
 
 [build.environment]
   NODE_VERSION = "18.18.0"
