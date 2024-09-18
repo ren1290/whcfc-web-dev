@@ -1,15 +1,17 @@
 .volunteer-discover-volunteering-opps {
-    width: 1065px;
-    height: 133px;
-    display: flex;
-    margin: 0 auto;
-    align-items: flex-start;
-    flex-shrink: 1;
-    margin-top: 2720px;
-  }
+  top: 1200px;  
+  width: 1065px;
+  height: 133px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-top: 3820px;
+}
 
   .volunteer-text1 {
-    top: 1000px;
+    top: 1100px;
     color: rgba(0, 0, 0, 1);
     width: 1065px;
     height: auto;
@@ -20,8 +22,7 @@
   }
 
   .volunteer-text2 {
-    top: 1100px;
-    left: 450px;
+    top: 1200px;
     color: rgba(0, 0, 0, 1);
     width: 700px;
     height: auto;
@@ -32,7 +33,7 @@
   }
 
   .volunteer-connect1 {
-    top: 1207px;
+    top: 1307px;
     left: 300px;
     width: 1065px;
     height: 295px;
@@ -92,7 +93,7 @@
   }
 
   .volunteer-gain-experience {
-    top: 1615px;
+    top: 1715px;
     left: 300px;
     width: 1065px;
     height: 326px;
@@ -152,7 +153,7 @@
   }
 
   .volunteer-support {
-    top: 2021px;
+    top: 2121px;
     left: 300px;
     width: 1065px;
     height: 314px;
@@ -212,7 +213,7 @@
   }
 
   .volunteer-middle-button {
-    top: 2436px;
+    top: 2536px;
     left: 300px;
     width: 1066px;
     height: 429px;
@@ -221,6 +222,7 @@
     background: linear-gradient(158deg, rgba(146, 226, 93, 1) 0%, rgba(95, 146, 182, 1) 65%, rgba(67, 102, 230, 1) 100%);
     align-items: flex-start;
     flex-shrink: 1;
+    border-radius: 30px;
   }
 
   .volunteer-text12 {
@@ -273,4 +275,5 @@
     height: auto;
     text-align: left;
     line-height: normal;
+    font-weight: 700;
   }

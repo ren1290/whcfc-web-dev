@@ -1,8 +1,8 @@
 .volunteer-volunteer-header-black {
-    top: 218px;
+    top: 100px;
     left: 0px;
     width: 100vw;
-    height: 740px;
+    height: 100vh;
     display: flex;
     position: absolute;
     align-items: flex-start;
@@ -57,7 +57,7 @@
 
   .volunteer-button1 {
     gap: 10px;
-    top: 450px;
+    top: 500px;
     left: 100px;
     display: flex;
     padding: 29px 30px;
@@ -73,6 +73,7 @@
     height: auto;
     text-align: left;
     line-height: normal;
+    font-weight: 700;
   }
 
  
