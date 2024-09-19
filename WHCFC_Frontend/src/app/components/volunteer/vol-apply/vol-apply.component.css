@@ -157,16 +157,8 @@
     text-align: left;
     line-height: normal;
   }
+
   .volunteer-text6 {
-    top: 518px;
-    left: 300px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    text-align: left;
-    line-height: normal;
-  }
-  .volunteer-text7 {
     top: 384px;
     left: 840px;
     color: rgba(255, 255, 255, 1);
@@ -175,6 +167,17 @@
     text-align: left;
     line-height: normal;
   }
+  
+  .volunteer-text7 {
+    top: 518px;
+    left: 300px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: normal;
+  }
+  
   .volunteer-text8 {
     top: 651px;
     left: 300px;
