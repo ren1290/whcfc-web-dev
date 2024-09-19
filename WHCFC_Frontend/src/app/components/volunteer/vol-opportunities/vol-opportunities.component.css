@@ -269,7 +269,13 @@
     border-radius: 100px;
     justify-content: center;
     background-color: rgba(224, 212, 118, 1);
+    transition: background-color 0.3s ease;
   }
+
+  .volunteer-button1:hover {
+    background-color: rgba(0, 225, 255, 0.871); 
+  }
+  
   .volunteer-text14 {
     color: rgba(0, 0, 0, 1);
     height: auto;
