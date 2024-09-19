@@ -1,17 +1,16 @@
 .volunteer-discover-volunteering-opps {
-  top: 1200px;  
-  width: 1065px;
+  top: 1000px;  
+  width: 100vw;
   height: 133px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: flex-start;
   flex-shrink: 1;
-  margin-top: 5600px;
 }
 
   .volunteer-text1 {
-    top: 1100px;
+    top: 1050px;
     color: rgba(0, 0, 0, 1);
     width: 1065px;
     height: auto;
@@ -22,7 +21,7 @@
   }
 
   .volunteer-text2 {
-    top: 1200px;
+    top: 1150px;
     color: rgba(0, 0, 0, 1);
     width: 700px;
     height: auto;
