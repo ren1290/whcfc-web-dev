@@ -110,19 +110,51 @@
     margin-bottom: 15px;
     top: 550px;
     left: 300px;
-    /* padding: 10px; */
     border: none;
     position: absolute;
     border-radius: 20px;
 }
-.form-group select {
-    width: 500px;
-    padding: 8px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    background-color: rgba(255, 255, 255, 0.74);
-    border-radius: 20px;
-    text-decoration-color: rgba(255, 255, 255, 0.74);
+
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  width: 500px;
+  height: 58px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.74);
+  transition: background-color 0.3s ease;
+}
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-select:after {
+  content: '\25BC';
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #000000;
+}
+
+.custom-select select:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.custom-select select:hover {
+  background-color: #eaeaea;
 }
 
 .form-group select option.placeholder {
@@ -206,7 +238,6 @@
     background-color: rgba(0, 225, 255, 0.871); 
   }
   
-
   .volunteer-text9 {
     color: rgba(0, 0, 0, 1);
     height: auto;
