@@ -5,7 +5,7 @@
     Club, please submit the following form and our team will reach out to you
     with an answer.
   </p>
-  <form class="mt-8">
+  <form class="mt-8" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="md:columns-2">
       <div class="form-group mb-5">
         <label for="firstname" class="text-sm">First Name</label><br />
@@ -13,6 +13,7 @@
           type="text"
           id="firstname"
           class="form-control w-full border-solid border-2 border-gray rounded-lg p-1"
+          formControlName="firstname"
         />
       </div>
 
@@ -22,6 +23,7 @@
           type="text"
           id="lastname"
           class="form-control w-full border-solid border-2 border-gray rounded-lg p-1"
+          formControlName="lastname"
         />
       </div>
     </div>
@@ -32,6 +34,7 @@
           type="email"
           id="email"
           class="form-control w-full border-solid border-2 border-gray rounded-lg p-1"
+          formControlName="email"
         />
       </div>
       <div class="form-group">
@@ -40,6 +43,7 @@
           type="phone"
           id="phone"
           class="form-control w-full border-solid border-2 border-gray rounded-lg p-1"
+          formControlName="phone"
         />
       </div>
     </div>
@@ -49,6 +53,7 @@
       <textarea
         id="message"
         class="form-control w-full border-solid border-2 border-gray rounded-lg min-h-20 p-1"
+        formControlName="message"
       ></textarea>
     </div>
     <button
