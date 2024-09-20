@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:whcfc-frontend": "node dist/whcfc-frontend/server/server.mjs",
@@ -44,5 +44,8 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.11",
     "typescript": "~5.4.2"
+  },
+  "engines": {
+    "node": "18.18.0"
   }
 }
