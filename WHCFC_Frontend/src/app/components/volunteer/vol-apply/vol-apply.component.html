@@ -8,29 +8,31 @@
       </span>
     </span>
     <span class="volunteer-text3 WHCFCBody"><span>First Name</span></span>
-    <form>
-      <input type="first-name" placeholder="First Name" required>
-    </form>
+    <form (ngSubmit)="onSubmit()">
+      <label for="firstName">First Name:</label>
+      <input type="first-name" placeholder="First Name" name="firstName" [(ngModel)]="volApplyInfo.firstName" required>
+    
       <span class="volunteer-text4 WHCFCBody"><span>Last Name</span></span>
-    <form>
-      <input type="last-name" placeholder="Last Name" required>
-    </form>
+      
+      <label for="lastName">Last Name:</label>
+      <input type="last-name" placeholder="Last Name" name="lastName" [(ngModel)]="volApplyInfo.lastName" required>
+    
     <span class="volunteer-text5 WHCFCBody">
       <span>Email Address</span>
     </span>
-    <form>
-      <input type="email-address" placeholder="Email Address" required>
-    </form>
+      <label for="emailAddress">Email:</label>
+      <input type="email-address" placeholder="Email Address" name="emailAddress" [(ngModel)]="volApplyInfo.emailAddress" required>
+    
     <span class="volunteer-text6 WHCFCBody"><span>Phone Number</span></span>
-    <form>
-      <input type="phone-number" placeholder="(XXX) XXX - XXXX" required>
-    </form>
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="phone-number" placeholder="(XXX) XXX - XXXX" name="phoneNumber" [(ngModel)]="volApplyInfo.phoneNumber" required>
+    
 
     <span class="volunteer-text7 WHCFCBody"><span>Category</span></span>
     <div class="form-group">
       <div class="custom-select">
         <select id="options" name="options" required>
-          <option value="" class="placeholder" disabled selected>Select an Option</option>
+          <option value="" class="placeholder" disabled selected required>Select an Option</option>
           <option value="option1">Coaching & Training</option>
           <option value="option2">Fitness Programs</option>
           <option value="option3">Referees/Linesmen</option>
@@ -45,8 +47,8 @@
     <span class="volunteer-text8 WHCFCBody">
       <span>Message (Comments, Questions, Involvement Interest)</span>
     </span>
-    <form>
-      <input type="message-content" placeholder="Message" required>
-    </form>
-  <button class="volunteer-button1 volunteer-text9 WHCFCButtonText">SUBMIT</button>
+      <label for="message">Message:</label>
+      <input type="message-content" placeholder="Message" name="message" [(ngModel)]="volApplyInfo.message" required>
+  <button type="submit" class="volunteer-button1 volunteer-text9 WHCFCButtonText">SUBMIT</button>
+</form>
   </div>
