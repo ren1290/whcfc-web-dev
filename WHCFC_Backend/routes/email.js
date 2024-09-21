@@ -1,5 +1,6 @@
 import express from "express";
 import nodemailer from "nodemailer";
+import db from "../db/db.js";
 
 const router = express.Router();
 
@@ -27,7 +28,7 @@ const emailSending = (subject, body) => {
   });
 };
 
-router.route("/contact").post((req, res) => {
+router.route("/contact").post(async (req, res) => {
   var emailBody =
     "Sender name: " +
     req.body.firstname +
@@ -39,7 +40,17 @@ router.route("/contact").post((req, res) => {
     "\nMessage: " +
     req.body.message;
 
+  var sql =
+    "INSERT INTO contact (firstname, lastname, email, phone, message) VALUES (?, ?, ?, ?, ?)";
+
   try {
+    await db.query(sql, [
+      req.body.firstname,
+      req.body.lastname,
+      req.body.email,
+      req.body.phone,
+      req.body.message,
+    ]);
     emailSending("Contact Form Submission", emailBody);
     res.sendStatus(200);
   } catch (error) {
