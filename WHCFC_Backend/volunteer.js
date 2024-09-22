@@ -22,7 +22,7 @@ app.post('/api/vol-info', (req, res) => {
     // Set up email data
     const mailOptions = {
         from: process.env.APP_MAILING_SENDER_EMAIL, // sender address
-        to: process.env.APP_MAILING_SENDER_EMAIL, contactData: contactData.email, // list of receivers
+        to: process.env.APP_MAILING_RECEIVER_EMAIL, contactData: contactData.email, // list of receivers
         subject: 'New Volunteer Application Form Submission',
         text: `You have received a new Volunteer Application form submission.\n\nFirst Name: ${contactData.firstName}\nLast Name: ${contactData.lastName}\nEmail: ${contactData.email}\nMessage: ${contactData.message}`,
         html: `<p>You have received a new Volunteer Application form submission.</p><ul>
