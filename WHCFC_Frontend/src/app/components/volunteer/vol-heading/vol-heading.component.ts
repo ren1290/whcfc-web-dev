@@ -9,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class VolHeadingComponent {
 
+  scrollToBottom(): void {
+    const scrollHeight = document.body.scrollHeight; 
+    const offset = 1200; 
+  
+    window.scrollTo({ top: scrollHeight - offset, behavior: 'smooth' });
+  }
+
 }

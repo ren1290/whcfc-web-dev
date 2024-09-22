@@ -245,3 +245,16 @@
     line-height: normal;
     font-weight: 700;
   }
+
+  .success-message {
+    border: none;
+    top: 956px;
+    left: 300px;
+    display: flex;
+    padding: 29px 30px;
+    position: absolute;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    color: rgba(146, 226, 93, 1);
+  }
