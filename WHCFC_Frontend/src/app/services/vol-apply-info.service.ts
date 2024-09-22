@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class VolApplyInfoService {
-  private apiUrl = 'http://localhost:3000/api/vol-info'; // Backend URL
+  private apiUrl = 'http://localhost:8000/api/vol-info'; // Backend URL
 
   constructor(private http: HttpClient) {}
 
