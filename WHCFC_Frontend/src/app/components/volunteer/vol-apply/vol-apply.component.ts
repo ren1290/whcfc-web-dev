@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { VolApplyInfoService } from '../../../vol-apply-info.service';
+import { VolApplyInfoService } from '../../../services/vol-apply-info.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
