@@ -25,8 +25,36 @@
             <li><a href="/volunteer" routerLinkActive="active">Volunteer</a></li>
             <li><a routerLink="/contact-us" routerLinkActive="active">Contact</a></li>
         </ul>
-    </nav>
-    <div class="donate-button">
-        <button>Donate</button>
-    </div>
+      </li>
+      <li>
+        <a routerLink="/league" routerLinkActive="active">League</a>
+        <span class="dropdown-symbol">&#9662;</span>
+        <ul class="dropdown">
+          <li>
+            <a routerLink="/league/scoreboard" routerLinkActive="active"
+              >Scoreboard</a
+            >
+          </li>
+          <li>
+            <a routerLink="/league/recent-match" routerLinkActive="active"
+              >Recent Match</a
+            >
+          </li>
+          <li>
+            <a routerLink="/league/schedule" routerLinkActive="active"
+              >Schedule</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li><a routerLink="/news" routerLinkActive="active">News</a></li>
+      <li>
+        <a routerLink="/volunteer" routerLinkActive="active">Volunteer</a>
+      </li>
+      <li><a routerLink="/contact-us" routerLinkActive="active">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="donate-button">
+    <button>Donate</button>
+  </div>
 </header>
