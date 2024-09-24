@@ -268,6 +268,7 @@
     border-radius: 100px;
     justify-content: center;
     background-color: rgba(224, 212, 118, 1);
+    border: none;
     transition: background-color 0.3s ease;
   }
 
