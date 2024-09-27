@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "WHCFC_Frontend/dist/whcfc-frontend"
+  publish = "dist/whcfc-frontend"
 
 [build.environment]
   NODE_VERSION = "18.18.0"
